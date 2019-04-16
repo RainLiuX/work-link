@@ -1,0 +1,49 @@
+body {
+  margin: 0px;
+}
+
+#canvas {
+  position: absolute;
+  background-color: #ced6e0;
+}
+
+.word-block {
+  text-align: center;
+  position: absolute;
+  word-wrap: break-word;
+}
+
+#timer {
+  position: absolute;
+  text-align: center;
+  font-size: 2rem;
+  color: #2f3542;
+}
+
+#inner {
+  position: absolute;
+  background-color: #dfe4ea;
+}
+
+.bigBtn {
+  background-color: #2ed573;
+  font-size: 2rem;
+  border: 0;
+  border-radius: 8px;
+}
+
+#startBtn {
+  position: absolute;
+}
+
+#ready {
+  position: absolute;
+  background-color: #ff7f50;
+}
+
+#ready>h1 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 6rem;
+  text-align: center;
+}
