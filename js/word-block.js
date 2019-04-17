@@ -5,7 +5,7 @@ var wordBlock = Vue.component('word-block', {
       space: 10,
       margin: 15,
       radius: 5,
-      dfc: '#70a1ff',
+      dfc: '#dfe4ea',
       hlc: '#ff7f50',
       bgc: ''
     };

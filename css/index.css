@@ -16,13 +16,13 @@ body {
 #timer {
   position: absolute;
   text-align: center;
-  font-size: 2rem;
+  font-size: 4rem;
   color: #2f3542;
 }
 
 #inner {
   position: absolute;
-  background-color: #dfe4ea;
+  background-color: #70a1ff;
 }
 
 .bigBtn {
@@ -44,6 +44,6 @@ body {
 #ready>h1 {
   margin: 0px;
   padding: 0px;
-  font-size: 6rem;
+  font-size: 8rem;
   text-align: center;
 }

@@ -43,7 +43,7 @@ var canvas = new Vue({
         this.size.left = 0;
         this.size.top = (cHeight - this.size.height) / 2;
       }
-      const SCALE = 400;
+      const SCALE = 300;
       this.size.fontsize = this.size.width / SCALE;
     },
     reset: function() {
