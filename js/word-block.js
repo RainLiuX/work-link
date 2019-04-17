@@ -12,7 +12,7 @@ var wordBlock = Vue.component('word-block', {
   },
   props: ['word', 'side', 'index', 'shake', 'disp'],
   template: `
-    <div class="word-block" :style="computedSize" @click="clickHandler">
+    <div class="word-block" :style="computedSize" v-tap="{ methods: clickHandler }">
       {{ word.text }}
     </div>
   `,
